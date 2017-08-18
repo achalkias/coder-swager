@@ -17,7 +17,7 @@ class ProductCell: UICollectionViewCell {
     func updateViews(product: Product) {
         imageView.image =  UIImage(named: product.imageName)
         productTitle.text = product.title
-        productPrice.text = product.price
+        productPrice.text = product.price.capitalized
     }
     
 }

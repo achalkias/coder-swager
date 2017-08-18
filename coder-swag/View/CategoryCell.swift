@@ -15,7 +15,8 @@ class CategoryCell: UITableViewCell {
 
     func updateViews(category: Category) {
         categoryImage.image = UIImage(named: category.imageName)
-        categoryTitle.text = category.title.capitalized
+        //No capitals
+        categoryTitle.text = category.title
     }
 
     
