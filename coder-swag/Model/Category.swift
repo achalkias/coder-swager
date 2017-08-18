@@ -10,6 +10,7 @@ import Foundation
 
 struct Category {
     
+    //Only struct can access them
     private(set) public var title: String
     private(set) public var imageName: String
     
