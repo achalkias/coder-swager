@@ -12,6 +12,7 @@ class DataService {
     //Class singleton
     static let instance = DataService()
     
+    //Add some hardcoded data
     private let categories = [Category(title: "SHIRTS", imageName: "shirts.png"),
                               Category(title: "HOODIES", imageName: "hoodies.png"),
                               Category(title: "HATS", imageName: "hats.png"),
@@ -44,6 +45,7 @@ class DataService {
     func getCategories() -> [Category] {
         return categories
     }
+    
     
     func getProducts(forCategoryTitle title:String) -> [Product] {
         switch title {
