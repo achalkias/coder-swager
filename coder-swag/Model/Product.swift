@@ -10,6 +10,7 @@ import Foundation
 
 struct Product {
     
+    //Only the struct can set them 
     private(set) public var title: String
     private(set) public var price: String
     private(set) public var imageName: String
