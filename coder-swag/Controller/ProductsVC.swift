@@ -11,7 +11,7 @@ import UIKit
 class ProductsVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     
-   
+    //This is the product view controller
     @IBOutlet weak var prodcuctsCollection: UICollectionView!
     
     private(set) public var products = [Product]()
